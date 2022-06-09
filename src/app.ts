@@ -31,6 +31,4 @@ app.use(
 
 routes(app);
 
-import './test';
-
 export default app;
