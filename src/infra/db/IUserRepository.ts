@@ -1,4 +1,4 @@
-import User from '@core/entities/User';
+import User from 'core/entities/User';
 
 export interface IUserRepository {
   exists(email: string): Promise<boolean>;

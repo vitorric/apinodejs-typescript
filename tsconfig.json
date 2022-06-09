@@ -5,8 +5,9 @@
         "lib": [
             "es6"
         ],
+        "rootDir": ".",
         "outDir": "./dist",
-        "rootDir": "./src",
+        "baseUrl": ".",
         "allowJs": true,
         "removeComments": true,
         "typeRoots": [
@@ -18,12 +19,11 @@
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "pretty": true,
-        "baseUrl": ".",
         "paths": {
-            "@infra/*": [
+            "infra/*": [
                 "./src/infra/*"
             ],
-            "@core/*": [
+            "core/*": [
                 "./src/core/*"
             ]
         },
@@ -31,6 +31,8 @@
         "isolatedModules": true
     },
     "include": [
-        "src/**/*.ts"
-    ]
+        "src/**/*.ts",
+        "test/**/*.ts"
+    ],
+    "exclude": ["node_modules", "coverage", "dist" ]
 }

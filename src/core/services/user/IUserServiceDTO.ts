@@ -1,4 +1,4 @@
-import { Roles } from '@core/entities/User';
+import { Roles } from 'core/entities/User';
 
 export interface IUserCreateDTO {
   email: string;

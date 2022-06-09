@@ -1,8 +1,8 @@
 import { Router } from 'express';
 import passport from 'passport';
 
-import UserController from '@core/controllers/user/UserController';
-import { resJson } from '@infra/http/utils';
+import UserController from 'core/controllers/user/UserController';
+import { resJson } from 'infra/http/utils';
 
 const router = Router();
 const passportAuthenticate = passport.authenticate('user');

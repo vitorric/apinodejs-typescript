@@ -1,6 +1,6 @@
-import User from '@core/entities/User';
-import { encrypt } from '@core/utils/crypto';
-import { IUserRepository } from '@infra/db/IUserRepository';
+import User from 'core/entities/User';
+import { encrypt } from 'core/utils/crypto';
+import { IUserRepository } from 'infra/db/IUserRepository';
 
 import {
   ResponseController,

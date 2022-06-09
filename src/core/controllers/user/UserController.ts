@@ -1,4 +1,4 @@
-import UserFactory from '@core/factories/user/UserFactory';
+import UserFactory from 'core/factories/user/UserFactory';
 
 import { ResponseController } from '../ResponseController';
 

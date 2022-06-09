@@ -1,4 +1,4 @@
-import User from '@core/entities/User';
+import User from 'core/entities/User';
 
 import { IUserRepository } from '../../IUserRepository';
 import schema from '../schemas/UserSchema';

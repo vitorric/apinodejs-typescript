@@ -2,10 +2,10 @@ import passport, { PassportStatic } from 'passport';
 import { Strategy as StrategyJWT, ExtractJwt } from 'passport-jwt';
 import { Strategy } from 'passport-local';
 
-import User, { Roles } from '@core/entities/User';
-import { encrypt, decryptLogin } from '@core/utils/crypto';
-import { IUserRepository } from '@infra/db/IUserRepository';
-import UserRepository from '@infra/db/mongodb/implementations/UserRepository';
+import User, { Roles } from 'core/entities/User';
+import { encrypt, decryptLogin } from 'core/utils/crypto';
+import { IUserRepository } from 'infra/db/IUserRepository';
+import UserRepository from 'infra/db/mongodb/implementations/UserRepository';
 
 import { isValidUser } from './BaseAuthUser';
 

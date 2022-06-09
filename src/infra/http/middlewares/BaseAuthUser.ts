@@ -1,4 +1,4 @@
-import User from '@core/entities/User';
+import User from 'core/entities/User';
 
 const isValidUser = async (user: User): Promise<boolean> => {
   if (!user._id) {

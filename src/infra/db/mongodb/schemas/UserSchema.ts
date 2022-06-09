@@ -1,6 +1,6 @@
 import { Schema, Document } from 'mongoose';
 
-import { Roles } from '@core/entities/User';
+import { Roles } from 'core/entities/User';
 
 import conn from '../connection';
 

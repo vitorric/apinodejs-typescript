@@ -2,10 +2,9 @@
 import './config';
 
 import express from 'express';
+import passport from 'infra/http/middlewares';
+import routes from 'infra/http/routes';
 import morgan from 'morgan';
-
-import passport from '@infra/http/middlewares';
-import routes from '@infra/http/routes';
 
 const app = express();
 

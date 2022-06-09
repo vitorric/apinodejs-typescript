@@ -13,12 +13,12 @@ module.exports = {
     plugins: [
         ['module-resolver', {
             alias: {
-                '@infra': './src/infra',
-                '@core': './src/core'
+                'infra': './src/infra',
+                'core': './src/core'
             }
         }]
     ],
     ignore: [
-        '**/*.spec.ts'
+        '**/*.test.ts'
     ]
 }
