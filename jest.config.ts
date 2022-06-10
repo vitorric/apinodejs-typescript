@@ -9,6 +9,7 @@ const config: Config.InitialOptions = {
   moduleNameMapper: {
     '^infra/(.*)': '<rootDir>/src/infra/$1',
     '^core/(.*)': '<rootDir>/src/core/$1',
+    '^test/(.*)': '<rootDir>/test/$1',
   },
   modulePathIgnorePatterns: ['dist/'],
   globals: {

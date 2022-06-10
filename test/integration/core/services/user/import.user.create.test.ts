@@ -1,8 +1,7 @@
 import { Roles } from 'core/entities/User';
 import UserFactory from 'core/factories/user/UserFactory';
 import { UserService } from 'core/services/user/UserService';
-
-import { hooks } from '../../../../hooks';
+import { hooks } from 'test/hooks';
 
 hooks();
 

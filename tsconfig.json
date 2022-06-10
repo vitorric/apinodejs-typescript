@@ -25,6 +25,9 @@
             ],
             "core/*": [
                 "./src/core/*"
+            ],
+            "test/*": [
+                "./test/*"
             ]
         },
         "declaration": true,

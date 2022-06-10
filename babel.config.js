@@ -14,7 +14,8 @@ module.exports = {
         ['module-resolver', {
             alias: {
                 'infra': './src/infra',
-                'core': './src/core'
+                'core': './src/core',
+                'test': './test'
             }
         }]
     ],
