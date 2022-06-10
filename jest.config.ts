@@ -5,6 +5,7 @@ const config: Config.InitialOptions = {
   testEnvironment: 'node',
   verbose: true,
   setupFiles: ['<rootDir>/test/env.ts'],
+  coverageReporters: ['json', 'html', 'text'],
   moduleNameMapper: {
     '^infra/(.*)': '<rootDir>/src/infra/$1',
     '^core/(.*)': '<rootDir>/src/core/$1',
