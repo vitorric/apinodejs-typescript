@@ -4,7 +4,7 @@ const config: Config.InitialOptions = {
   preset: 'ts-jest',
   testEnvironment: 'node',
   verbose: true,
-  globalSetup: '<rootDir>/test/setup.ts',
+  setupFiles: ['<rootDir>/test/env.ts'],
   moduleNameMapper: {
     '^infra/(.*)': '<rootDir>/src/infra/$1',
     '^core/(.*)': '<rootDir>/src/core/$1',
